@@ -1,6 +1,7 @@
 var count = 0;
 
 var span = document.getElementById("value");
+span.innerText = count;
 
 document.getElementById("add").addEventListener("click", () => {
 
